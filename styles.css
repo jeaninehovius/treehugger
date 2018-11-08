@@ -1,0 +1,127 @@
+.wrapper{
+  width:98%;
+background-color: black;
+    overflow:auto;
+    margin: auto;
+}
+
+body{
+  font-family: sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+header{
+  width: 87%;
+  border: solid;
+  border-width: thin;
+  border-color: hsl(131, 99%, 33%)
+  padding:2%;
+margin: 2em auto;
+background-image: /*linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),*/
+                  url("../Ex31/images/takken.jpeg");
+}
+
+h1{
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom:0%;
+  padding-top: 4%;
+  padding-left: 2%;
+      color:white;
+}
+
+h1::first-letter{
+  font-size: 4em;
+  }
+
+li.bar{
+display:inline-block;
+align: right;
+padding: 1%;
+margin-left:2%;
+margin-bottom: 2%;
+font-stretch: expanded;
+}
+
+nav{
+margin-left:4%;
+}
+
+a:link{
+color: hsl(134, 96%, 37%);
+text-decoration: none;
+font-weight: bold;}
+
+a:visited{
+color: hsl(141, 94%, 25%);
+  }
+
+a:hover {
+color:hsl(55, 95%, 53%);
+  }
+
+a:active{
+color: hsl(10, 96%, 54%);;
+}
+
+.mainwrap{
+  width: 83%;
+  border: solid thin white;
+  overflow: auto;
+  margin:2em auto;
+  padding: 2%;
+
+}
+.column{
+  width:22%;
+  margin:2% 1%;
+  padding:2% 7% 4% 2%;
+border:solid;
+border-width: thin;
+border-color:white;
+color: hsl(141, 31%, 97%);
+float: left;
+overflow: auto;
+}
+
+p::first-letter{
+  font-weight: bold;
+  font-size: 3em;
+  font-variant: small-caps;
+clear:left;
+}
+
+h2::before{
+  content:"the gentle art of...";
+  font-stretch: semi-expanded;
+  clear:both;
+  columns: 2 auto;
+}
+
+.healing{
+  background-image: url("../Ex31/images/darkleaf.jpeg");
+}
+.hugging{
+        background-image: url("../Ex31/images/circlecut.jpeg");}
+
+.helping{
+   background-image: url("../Ex31/images/autumnleaves.jpeg");
+ }
+
+.minicolumn{
+  float: left;
+  width: 40%;
+  padding:2%;
+  margin:2%;
+}
+
+ footer{
+clear:left;
+color:black;
+border: solid thin white;
+border-style: hidden;
+margin-top: 1%;
+margin-left: 1%;
+margin-right: 2%;
+ }
