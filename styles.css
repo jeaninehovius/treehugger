@@ -3,6 +3,7 @@
 background-color: black;
     overflow:auto;
     margin: auto;
+    height:1500px;
 }
 
 body{
@@ -16,8 +17,8 @@ header{
   border: solid;
   border-width: thin;
   border-color: hsl(131, 99%, 33%);
-  padding:2%;
-margin: 2em auto;
+  padding:0%;
+margin: 3em auto;
 background-image: /*linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),*/
                   url("../Ex31/images/takken.jpeg");
 }
@@ -101,8 +102,10 @@ h2::before{
 .healing{
   background-image: url("../Ex31/images/darkleaf.jpeg");
 }
+
 .hugging{
-        background-image: url("../Ex31/images/circlecut.jpeg");}
+        background-image: url("../Ex31/images/circlecut.jpeg");
+      }
 
 .helping{
    background-image: url("../Ex31/images/autumnleaves.jpeg");
@@ -115,12 +118,14 @@ h2::before{
   margin:2%;
 }
 
- footer{
+.foot{
 clear:left;
-color:black;
-border: solid thin white;
-border-style: hidden;
+color: black;
+border: solid thin black;
+background-color: white;
+border-style: double;
 margin-top: 1%;
-margin-left: 1%;
-margin-right: 2%;
- }
+margin-left: 6%;
+margin-right: 6%;
+ height: 100px;
+}
