@@ -15,7 +15,7 @@ header{
   width: 87%;
   border: solid;
   border-width: thin;
-  border-color: hsl(131, 99%, 33%)
+  border-color: hsl(131, 99%, 33%);
   padding:2%;
 margin: 2em auto;
 background-image: /*linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),*/
@@ -37,7 +37,6 @@ h1::first-letter{
 
 li.bar{
 display:inline-block;
-align: right;
 padding: 1%;
 margin-left:2%;
 margin-bottom: 2%;
